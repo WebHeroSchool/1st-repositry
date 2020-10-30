@@ -6,3 +6,30 @@
 * {
   font-family: Roboto;
 }
+
+body {
+  margin:0;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+.logo, .header-menu {
+  display: inline-block;
+  padding: 40px 0;
+}
+
+.header {
+  display:flex;
+  justify-content: space-between;
+}
+
+.header-menu__item {
+  padding: 0 13px;
+}
+
+.header-menu__item:last-child {
+  padding-right: 0;
+}
