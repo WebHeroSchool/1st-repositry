@@ -1,8 +1,4 @@
 
-.logo, .main_title {
-  font-family: PT Serif;
-}
-
 * {
   font-family: Roboto;
 }
@@ -16,7 +12,39 @@ body {
   margin: auto;
 }
 
-.logo, .header-menu {
+.main_title {
+  font-family: PT Serif;
+}
+
+.logo {
+  position: relative;
+  padding: 40px 0;
+  padding-left: 44px;
+  font: bold 24px/31px 'pt_serifregular', arial, helvetica, sans-serif;
+}
+
+.logo__circle {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+.logo_circle_color_blue {
+  background: #C8DBFB;
+  opacity: .7;
+  left: 8px;
+  top: 56%;
+}
+
+.logo_circle_color_dark-blue {
+  background: #0056EC;
+}
+
+.header-menu {
   display: inline-block;
   padding: 40px 0;
 }
