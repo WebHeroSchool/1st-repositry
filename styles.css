@@ -1,8 +1,3 @@
-
-* {
-  font-family: Roboto;
-}
-
 body {
   margin:0;
 }
@@ -10,10 +5,6 @@ body {
 .wrapper {
   width: 80%;
   margin: auto;
-}
-
-.main_title {
-  font-family: PT Serif;
 }
 
 .logo {
@@ -52,6 +43,7 @@ body {
 .header {
   display:flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .header-menu__item {
@@ -96,4 +88,38 @@ body {
 .header-menu__item:hover::after, .header-menu__item_active:after {
   opacity: 1;
   width: 100%;
+}
+
+.main {
+  padding: 0 63% 100px 0;
+  background: top right no-repeat url(img/mainimg.svg);
+}
+
+.main__title {
+  font: bold 50px/66px pt_serif, arial, helvetica, sans-serif;
+  margin-bottom: 0 0 40px 0;
+}
+
+.main__title-text_highlight {
+  background-color: #ECF3FF;
+}
+
+.main__subtitle {
+  font: 18px/21px Roboto, arial, helvetica, sans-serif;
+    margin-bottom: 0 0 41px 0;
+}
+
+.main__button {
+  display: inline-block;
+  font: 14px/16px Roboto, arial, helvetica, sans-serif;
+  color: #fff;
+  background: #0056EC;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: opacity .5s;
+}
+
+.main__button:hover {
+  opacity: .5;
 }
